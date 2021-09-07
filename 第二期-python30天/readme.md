@@ -1,1 +1,1 @@
-> python 30天打卡学习。
+> python 30天打卡学习。打卡项目：https://github.com/Asabeneh/30-Days-Of-Python/。
