@@ -564,6 +564,18 @@ fruits = sorted(fruits, reverse=True)
 print(fruits) # ['orange', 'mango', 'lemon', 'banana']
 ```
 
+## 列表解析
+
+表达式：[expression for iter_val in iterable if cond_expr]
+
+- 【expression】：最后的执行结果
+- 【for iter_val in iterable】：这个可以一个多层的循环
+- 【if cond_expr】：两个for间是不能有判断语句的，判断语句只能在最后；顺序不定，默认是左到右。
+
+
+
+
+
 # 练习
 
 ...

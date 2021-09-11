@@ -260,3 +260,10 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits = sorted(fruits, reverse=True)
 print(fruits) # ['orange', 'mango', 'lemon', 'banana']
 
+## 列表解析
+
+a = [(x,y) for x in [1,2] for y in [3,4]]
+print(a) # [(1, 3), (1, 4), (2, 3), (2, 4)]
+
+b = [(x,y) for x in [1,2]for y in [3,x]]
+print(b) # [(1, 3), (1, 1), (2, 3), (2, 2)]
