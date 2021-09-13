@@ -95,6 +95,6 @@ print(len(brothers_and_sisters))
 lst = list(brothers_and_sisters)
 lst.append('liuwu')
 lst.append('wanghui')
-print(lst)
+print(lst) # ['zhangsan', 'lisi', 'wanglaowu', 'luna', 'andi', 'john', 'liuwu', 'wanghui']
 family_members = tuple(lst)
-print(family_members)
+print(family_members) # ('zhangsan', 'lisi', 'wanglaowu', 'luna', 'andi', 'john', 'liuwu', 'wanghui')
