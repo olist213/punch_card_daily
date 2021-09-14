@@ -86,3 +86,6 @@ print(dct_keys) # ['key3', 'key2', 'key1', 'key4']
 dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 dct_values = dct.values()
 print(dct_values) # ['value3', 'value2', 'value1', 'value4']
+
+# 练习
+
